@@ -1,0 +1,16 @@
+<layer id="test" width=80px height=80px>
+</layer>
+<script language="JavaScript1.2">
+var thecolor=true
+document.test.bgColor="blue"
+function changecol()
+{
+if (thecolor)
+document.test.bgColor="blue"
+else
+document.test.bgColor="red"
+thecolor=!thecolor
+setTimeout("changecol()",1000)
+}
+changecol()
+</script>
