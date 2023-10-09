@@ -1,0 +1,25 @@
+
+CSS – Cascading Style Sheets – The official Make Up Box (Beauty Parlour) of HTML
+Styling HTML with CSS
+CSS stands for Cascading Style Sheets
+Styling can be added to HTML elements in 3 ways:
+Inline - using a style attribute in HTML elements
+Internal - using a <style> element in the HTML <head> section
+External - using one or more external CSS files
+The most common way to add styling, is to keep the styles in separate CSS files
+This is a piece of of html without CSS
+<font face="Tahoma,Verdana,Arial" color="Blue" size="3"><i><b>text</b></i></font> with
+<font face="Tahoma,Verdana,Arial" color="Blue" size="3"><i><b>highlighted</b></i></font> elements
+in
+<font face="Tahoma,Verdana,Arial" color="Blue" size="3"><i><b>it</b></i></font>.
+With CSS
+<style type="text/css">
+.highlight {
+color: Blue; font-style: italic; font-weight: bold;
+font-size: 120%; font-family: Tahoma, Verdana, Arial;
+}
+</style>
+This is a piece of html with CSS
+<span class="highlight">text</span> with
+<span class="highlight">highlighted</span> elements in
+<span class="highlight">it</span>
